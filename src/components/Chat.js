@@ -52,6 +52,9 @@ export const Chat = (props) => {
 
   return (
     <div className="chat-app">
+      <div className="header">
+        <h1>Welcome to: {room.toUpperCase()} </h1>
+      </div>
       <div>
         {messages.map((message) => (
           <h1> {message.text} </h1>
